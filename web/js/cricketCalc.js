@@ -1,5 +1,5 @@
 var scorecard="";
-var score=0
+var score=0;
 
 /**
     @param {String} key
@@ -8,7 +8,7 @@ var score=0
 */
 function enter(key) { 
     scorecard = scorecard + key;
-    document.getElementById('scorecard').innerHTML = scorecard
+    document.getElementById('scorecard').innerHTML = scorecard;
     if (key != '.') score = score + key;
     document.getElementById('score').innerHTML = score;
 }
